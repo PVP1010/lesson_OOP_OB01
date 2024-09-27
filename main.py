@@ -1,9 +1,9 @@
 class Warrior():
-    def __init__(self,name, power, endurance, hair_color):          # метод создания обьекта
-        self.name = name
-        self.power = power
-        self.endurance = endurance
-        self.hair_color = hair_color
+    def __init__(self,name, power, endurance, hair_color):  # метод создания обьекта ( с атрибутами)
+        self.name = name                                    # имя объекта
+        self.power = power                                  # сила объекта
+        self.endurance = endurance                          # выносливость объекта
+        self.hair_color = hair_color                        # цвет волос  объекта
 
     def sleep(self):                                        # метод спать
         print(f"{self.name} лёг спать")
@@ -20,7 +20,7 @@ class Warrior():
     def walk(self):                                         # метод ходить
         print(f"{self.name} ходит")
 
-    def info(self):                                        # метод вывода информации об объекте
+    def info(self):                                         # метод вывода информации об объекте
         print(f"имя воина - {self.name}")
         print(f"цвет волос воина - {self.hair_color}")
         print(f"сила воина - {self.power}")
